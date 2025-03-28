@@ -1,0 +1,40 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    width: 1000px;
+    height: 800px;
+    border: 5px solid black;
+    padding: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+section {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.flex-items-3 {
+    order: 0;
+    flex-shrink: 1;
+}
+
+.flex-items-2 {
+    order: -1;
+    flex-grow: 1;
+}
+
+.flex-items-1 {
+    order: 1;
+    flex-grow: 1;
+}
